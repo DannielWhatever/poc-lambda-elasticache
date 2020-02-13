@@ -1,0 +1,7 @@
+{
+  "name": "fnLambda",
+  "version": "1.0.0",
+  "dependencies": {
+    "simple-cache-client": "^0.0.1"
+  }
+}
