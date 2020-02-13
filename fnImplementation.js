@@ -11,7 +11,7 @@ const server = process.env.CACHE_URL
 cache.connect2(server)
 
 // Get Personajes 
-module.exports.getPersonajes = async () => {
+module.exports.impl = async () => {
 
     // use from cache if is available, either go to server
     const personajes = await cache.get('personajes') || await getFromServer()
